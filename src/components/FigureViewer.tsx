@@ -10,14 +10,14 @@ const FigureViewer = () => {
       id: 'A',
       title: 'الشكل المعقد (أ) - Rey Figure A',
       label: 'للبالغين والأطفال فوق 8 سنوات',
-      src: 'https://api.studio.google.com/build/v1/attachments/2',
+      src: 'input_file_1.png',
       desc: 'النموذج القياسي للتقييم العصبي المعقد.'
     },
     {
       id: 'B',
       title: 'الشكل المبسط (ب) - Rey Figure B',
       label: 'للأطفال من 4 إلى 8 سنوات',
-      src: 'https://api.studio.google.com/build/v1/attachments/3',
+      src: 'input_file_0.png',
       desc: 'نسخة مبسطة مخصصة للأطفال أو الحالات الخاصة.'
     }
   ];
