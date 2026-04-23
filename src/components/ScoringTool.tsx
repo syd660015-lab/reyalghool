@@ -63,7 +63,7 @@ const ScoringTool = () => {
           >
             <div className="bg-white border-2 border-slate-900 rounded-[2rem] p-6 shadow-2xl mb-8 relative group">
                 <img 
-                    src="https://ibb.co/nscS0sxy" 
+                    src="https://i.ibb.co/nscS0sxy/figure-a.png" 
                     alt="Reference Rey Figure" 
                     className="w-full max-h-96 object-contain mix-blend-multiply group-hover:scale-[1.02] transition-transform duration-700" 
                     referrerPolicy="no-referrer"
