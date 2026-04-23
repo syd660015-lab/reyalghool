@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion } from 'motion/react';
+import { motion, AnimatePresence } from 'motion/react';
 import { REY_FIGURE_A_UNITS } from '../constants';
 import { CheckCircle2, AlertCircle, XCircle, Calculator, ChevronDown, ChevronUp, Image as ImageIcon } from 'lucide-react';
 
@@ -63,7 +63,7 @@ const ScoringTool = () => {
           >
             <div className="bg-white border-2 border-slate-900 rounded-[2rem] p-6 shadow-2xl mb-8 relative group">
                 <img 
-                    src="https://api.studio.google.com/build/v1/attachments/2" 
+                    src="https://ibb.co/nscS0sxy" 
                     alt="Reference Rey Figure" 
                     className="w-full max-h-96 object-contain mix-blend-multiply group-hover:scale-[1.02] transition-transform duration-700" 
                     referrerPolicy="no-referrer"

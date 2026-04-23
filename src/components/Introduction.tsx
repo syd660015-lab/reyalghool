@@ -35,7 +35,7 @@ const Introduction = () => {
             </div>
             <div className="bg-white border-2 border-slate-900 p-2 rounded-xl flex items-center justify-center relative group overflow-hidden">
                 <img 
-                    src="https://api.studio.google.com/build/v1/attachments/2" 
+                    src="https://ibb.co/nscS0sxy" 
                     alt="Rey Figure A Preview" 
                     className="max-h-32 object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500"
                     referrerPolicy="no-referrer"
