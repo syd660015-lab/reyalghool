@@ -75,3 +75,17 @@ export const QUALITATIVE_FACTORS = [
     items: ["مظاهر التشويه", "التفسير الإسقاطي", "التبسيط المفرط", "التماثل النشط", "الإزاحة أو النسيان"]
   }
 ];
+
+export const REY_FIGURE_B_UNITS = [
+  { id: 1, name: "الدائرة الكبيرة (Large Circle)", description: "الدائرة الرئيسية في الجزء العلوي الأيسر" },
+  { id: 2, name: "المربع (The Square)", description: "المربع المركزي تحت الدائرة" },
+  { id: 3, name: "المثلث (The Triangle)", description: "على يمين المربع" },
+  { id: 4, name: "الصليب (The Cross)", description: "داخل المربع (خطوط متقاطعة)" },
+  { id: 5, name: "نصف الدائرة (Semicircle)", description: "في أسفل المربع" },
+  { id: 6, name: "النقاط الأربعة (Four Dots)", description: "داخل الدائرة الكبيرة" },
+  { id: 7, name: "الخط الأفقي (Horizontal Line)", description: "داخل المربع" },
+  { id: 8, name: "الخط العمودي (Vertical Line)", description: "داخل المربع" },
+  { id: 9, name: "القطر (The Diagonal)", description: "داخل المربع من الأعلى يساراً للأسفل يميناً" },
+  { id: 10, name: "الخط العمودي في نصف الدائرة (Vertical Line in Semicircle)", description: "أسفل المربع" },
+  { id: 11, name: "القوس/عنصر القمة (Top Arc)", description: "في الجزء العلوي فوق الدائرة والمربع" }
+];

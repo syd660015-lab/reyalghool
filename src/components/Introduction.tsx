@@ -33,14 +33,25 @@ const Introduction = () => {
                 <li className="flex items-center gap-2 underline decoration-indigo-200 decoration-2 underline-offset-4">إعادة المعلومات (Restitution)</li>
               </ul>
             </div>
-            <div className="bg-white border-2 border-slate-900 p-2 rounded-xl flex items-center justify-center relative group overflow-hidden">
-                <img 
-                    src="https://i.ibb.co/nscS0sxy/figure-a.png" 
-                    alt="Rey Figure A Preview" 
-                    className="max-h-32 object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500"
-                    referrerPolicy="no-referrer"
-                />
-                <div className="absolute top-2 right-2 bg-slate-900 text-white text-[8px] px-1.5 py-0.5 rounded uppercase font-black">الشكل أ</div>
+            <div className="flex flex-col gap-3">
+              <div className="flex-1 bg-white border-2 border-slate-900 p-2 rounded-xl flex items-center justify-center relative group overflow-hidden">
+                  <img 
+                      src="https://i.ibb.co/nscS0sxy/figure-a.png" 
+                      alt="Rey Figure A Preview" 
+                      className="max-h-24 object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500"
+                      referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute top-2 right-2 bg-slate-900 text-white text-[8px] px-1.5 py-0.5 rounded uppercase font-black">الشكل أ</div>
+              </div>
+              <div className="flex-1 bg-white border-2 border-slate-900 p-2 rounded-xl flex items-center justify-center relative group overflow-hidden">
+                  <img 
+                      src="https://i.ibb.co/0jNpxVMR/figure-b.png" 
+                      alt="Rey Figure B Preview" 
+                      className="max-h-24 object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500"
+                      referrerPolicy="no-referrer"
+                  />
+                  <div className="absolute top-2 right-2 bg-slate-900 text-white text-[8px] px-1.5 py-0.5 rounded uppercase font-black">الشكل ب</div>
+              </div>
             </div>
           </div>
         </motion.section>

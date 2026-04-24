@@ -118,17 +118,28 @@ export default function App() {
       </div>
 
       {/* System Footer */}
-      <footer className="mt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400 border-t-2 border-slate-200 pt-6">
-        <div className="flex gap-6 items-center">
-          <span>الحالة: <strong className="text-slate-900">جاهز للاستخدام</strong></span>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
-            <span>نظام التقييم الرقمي v1.0</span>
+      <footer className="mt-8 flex flex-col items-center gap-6 border-t-2 border-slate-200 pt-6">
+        <div className="w-full flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
+          <div className="flex gap-6 items-center">
+            <span>الحالة: <strong className="text-slate-900">جاهز للاستخدام</strong></span>
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
+              <span>نظام التقييم الرقمي v1.0</span>
+            </div>
+          </div>
+          <div className="flex gap-3">
+            <button className="px-4 py-2 border-2 border-slate-900 bg-white text-slate-900 rounded-xl font-bold shadow-[2px_2px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none transition-all">تحميل الدليل</button>
+            <button className="px-4 py-2 bg-slate-900 text-white rounded-xl font-bold shadow-[2px_2px_0px_0px_rgba(15,23,42,0.3)] hover:bg-slate-800 transition-colors">بدأ اختبار جديد</button>
           </div>
         </div>
-        <div className="flex gap-3">
-          <button className="px-4 py-2 border-2 border-slate-900 bg-white text-slate-900 rounded-xl font-bold shadow-[2px_2px_0px_0px_rgba(15,23,42,1)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none transition-all">تحميل الدليل</button>
-          <button className="px-4 py-2 bg-slate-900 text-white rounded-xl font-bold shadow-[2px_2px_0px_0px_rgba(15,23,42,0.3)] hover:bg-slate-800 transition-colors">بدأ اختبار جديد</button>
+        
+        <div className="bg-white border-2 border-slate-900 p-4 rounded-2xl shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] text-center max-w-2xl w-full">
+          <p className="text-slate-900 font-black text-sm">
+            إعداد وبرمجة: دكتور. أحمد حمدي عاشور الغول
+          </p>
+          <p className="text-slate-500 text-[10px] mt-1 font-bold">
+            دكتوراه في علم النفس التربوي ـ خبير مايكروسوفت لتكنولوجيا المعلومات
+          </p>
         </div>
       </footer>
     </div>
